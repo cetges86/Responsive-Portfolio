@@ -151,7 +151,7 @@ input {
 }
 
 #submit {
-    width: 15%;
+    width: 20%;
     margin: 15px 0px 30px;
 }
 
@@ -184,6 +184,9 @@ footer {
         margin-bottom:1vh;
     }
 
+    a {
+        display: inline-block;
+    }
   
     .container {
         display:block;
@@ -212,4 +215,74 @@ footer {
         width:80%;
         margin-left: 5%;
     }
+
+    .image {
+        width: 87%;
+        display: block;
+    }
+
+    .contactForm {
+        width: 78%;
+        margin-left: 15%;
+    }
 }
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    body{
+        display: block;
+    }
+
+    .header {
+        display:inline;
+    }
+
+
+    h1 {
+        margin-top: -10px;
+        margin-left: 6%;
+        margin-bottom:1vh;
+    }
+
+    a {
+        display: inline-block;
+    }
+  
+    .container {
+        display:block;
+        margin-top: -2%;
+        margin-left: -16%;
+    }
+    .container section {
+        padding-bottom: 5%;
+    }
+
+    .aboutMe {
+        margin-bottom:0%;
+        margin-left: 14%;
+    }
+
+    .contactMe {
+        margin-bottom: 10%;
+        margin-left: 4%;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    #portrait {
+        width:40%;
+        margin-left: 5%;
+    }
+
+    .image {
+        width: 87%;
+        display: block;
+    }
+
+    .contactForm {
+        width: 78%;
+        margin-left: 15%;
+    }
+}
+
