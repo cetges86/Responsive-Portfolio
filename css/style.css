@@ -158,7 +158,7 @@ input {
 footer {
     position: fixed;
     bottom: 0;
-    height: 75px;
+    height: 90px;
     text-align: center;
     background-color: #666666;
     border-top: #4aaaa5 5px solid;
@@ -243,6 +243,11 @@ footer {
         margin-bottom:1vh;
     }
 
+    .nav {
+        clear: both;
+        margin: 0% 20%;
+    }
+
     a {
         display: inline-block;
     }
@@ -254,6 +259,7 @@ footer {
     }
     .container section {
         padding-bottom: 5%;
+        margin-left: 15%
     }
 
     .aboutMe {
@@ -264,6 +270,7 @@ footer {
     .contactMe {
         margin-bottom: 10%;
         margin-left: 4%;
+        margin-right: 5%;
     }
 
     h2, h3 {
