@@ -24,8 +24,9 @@ a {
 }
 
 .container section {
-    /* border: 1px solid lightgray; */
+    border: 1px solid lightgray;
     padding: 10px;
+    margin-right: 2%;
 }
 
 /* Main section */
@@ -64,7 +65,7 @@ h1 {
     background-color: #4aaaa5;
     border-radius: 10px;
     padding:30px;
-    margin-top:-10px;
+    margin-top:0px;
     margin-bottom:-10px;
     color: white;
     float: left;
@@ -79,7 +80,7 @@ h2, h3 {
 .nav{
     align-items: flex-end;
     margin:0 auto;
-    padding-top:3%;
+    padding-top:5%;
 }
 
 nav a {
@@ -179,10 +180,11 @@ footer {
 
 
     h1 {
-        margin-top: -10px;
-        margin-left: 6%;
-        margin-bottom:1vh;
+        margin: 0% 7%;
+        padding:25px;
+
     }
+
 
     a {
         display: inline-block;
@@ -202,7 +204,7 @@ footer {
     }
 
     .contactMe {
-        margin-bottom: 10%;
+        margin-bottom: 15%;
         margin-left: 4%;
     }
 
@@ -238,9 +240,9 @@ footer {
 
 
     h1 {
-        margin-top: -10px;
-        margin-left: 6%;
-        margin-bottom:1vh;
+        margin: -4% 20%;
+        padding:25px;
+
     }
 
     .nav {
@@ -248,8 +250,9 @@ footer {
         margin: 0% 20%;
     }
 
-    a {
+    nav a {
         display: inline-block;
+        padding: 0px;
     }
   
     .container {
@@ -268,7 +271,7 @@ footer {
     }
 
     .contactMe {
-        margin-bottom: 10%;
+        margin-bottom: 14%;
         margin-left: 4%;
         margin-right: 5%;
     }
@@ -291,5 +294,9 @@ footer {
         width: 78%;
         margin-left: 15%;
     }
-}
 
+    footer {
+        height:13%;
+    }
+
+}
